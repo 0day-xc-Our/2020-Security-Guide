@@ -1,0 +1,15 @@
+product: rhosp10
+full_name: Red Hat OpenStack Platform 10
+type: platform
+
+benchmark_root: "../applications"
+
+profiles_root: "./profiles"
+
+pkg_manager: "yum"
+
+init_system: "systemd"
+
+# Mapping of CPE platform to package
+platform_package_overrides:
+  login_defs: "shadow-utils"

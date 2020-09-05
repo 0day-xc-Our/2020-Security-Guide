@@ -1,0 +1,15 @@
+product: rhcos4
+full_name: Red Hat Enterprise Linux CoreOS 4
+type: platform
+
+benchmark_root: "../linux_os/guide"
+
+profiles_root: "./profiles"
+
+pkg_system: "rpm"
+
+init_system: "systemd"
+
+# Mapping of CPE platform to package
+platform_package_overrides:
+  login_defs: "shadow-utils"
